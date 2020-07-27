@@ -7,8 +7,8 @@ import java.util.*;
 public class CollectionDemo1 {
     public void listDemo(){
 
-
         List<String> stringList = new ArrayList<String>();
+
         stringList.add("tom");
         stringList.add("jerry");
         stringList.add("tim");
@@ -58,7 +58,8 @@ public class CollectionDemo1 {
 
         System.out.println(stringList);
 
-        //stringList.stream().forEach(str -> System.out.println(str));
+        //
+        // stringList.stream().forEach(str -> System.out.println(str));
     }
 
     public static void main(String[] args) {
